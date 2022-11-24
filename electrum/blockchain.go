@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/btcsuite/btcd/btcutil"
 )
 
 // BlockchainNumBlocksSubscribe returns the current number of blocks.

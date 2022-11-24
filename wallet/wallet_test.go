@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/btcsuite/btcd/btcutil"
+	"github.com/btcsuite/btcd/btcutil/hdkeychain"
 )
 
 func TestWalletCreationAndLoad(t *testing.T) {

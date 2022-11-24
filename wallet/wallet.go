@@ -9,13 +9,13 @@ import (
 	"log"
 	"time"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcwallet/netparams"
 	"github.com/btcsuite/btcwallet/waddrmgr"
 	"github.com/btcsuite/btcwallet/wallet"
 	"github.com/btcsuite/btcwallet/walletdb"
 	"github.com/btcsuite/btcwallet/wtxmgr"
-	"github.com/d4l3k/go-electrum/electrum"
+	"github.com/kcalvinalvin/go-electrum/electrum"
 
 	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
 )
